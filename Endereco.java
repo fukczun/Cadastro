@@ -1,6 +1,6 @@
 package lista6;
 
-public class EnderecoQ4 {
+public class Endereco {
 	private String logradouro;
 	private int numero;
 	private String bairro;
