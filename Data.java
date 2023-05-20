@@ -1,6 +1,6 @@
 package lista6;
 
-public class DataQ4 {
+public class Data {
 	private int dia;
 	private int mes;
 	private int ano;
