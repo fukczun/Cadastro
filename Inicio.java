@@ -1,7 +1,7 @@
 package lista6;
 import java.util.Scanner;
 
-public class InicioQ4 {
+public class Inicio {
 
 	public static void main(String[] args) {
 		Scanner scanTexto = new Scanner(System.in);
@@ -10,7 +10,7 @@ public class InicioQ4 {
 		System.out.print("Qual seu nome? ");
 		String nome = scanTexto.nextLine();
 		
-		DataQ4 data = new DataQ4();
+		Data data = new Data();
 		System.out.print("Digite o dia que você nasceu: ");
 		data.setDia(scanGeral.nextInt());
 		System.out.print("Digite o mês que você nasceu: ");
@@ -18,7 +18,7 @@ public class InicioQ4 {
 		System.out.print("Digite o ano que você nasceu: ");
 		data.setAno(scanGeral.nextInt());
 		
-		EnderecoQ4 endereco = new EnderecoQ4();
+		Endereco endereco = new Endereco();
 		System.out.print("Digite o logradouro: ");
 		endereco.setLogradouro(scanTexto.nextLine());
 		System.out.print("Digite o número: ");
@@ -32,7 +32,7 @@ public class InicioQ4 {
 		System.out.print("Digite o CEP: ");
 		endereco.setCep(scanTexto.nextLine());
 		
-		ContatoQ4 contato = new ContatoQ4();
+		Contato contato = new Contato();
 		System.out.print("Digite o telefone da residência: ");
 		contato.setTelefoneResid(scanTexto.nextLine());
 		System.out.print("Digite o celular: ");
@@ -40,7 +40,7 @@ public class InicioQ4 {
 		System.out.print("Digite o email: ");
 		contato.setEmail(scanTexto.nextLine());
 		
-		PessoaQ4 pessoa = new PessoaQ4(nome, data, endereco, contato);
+		Pessoa pessoa = new Pessoa(nome, data, endereco, contato);
 		System.out.print("\nNome: " + pessoa.getNome() + "\n"
 				+ "Data de Nascimento: " + pessoa.getDataNasc() + "\n"
 				+ "Endereço: " + pessoa.getEndereco() + "\n"
