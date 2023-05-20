@@ -10,6 +10,7 @@ public class PessoaQ4 {
 		
 	}
 	public PessoaQ4(String nome, DataQ4 dataNasc, EnderecoQ4 endereco, ContatoQ4 contato) {
+		this();
 		this.nome = nome;
 		this.dataNasc = dataNasc;
 		this.endereco = endereco;
