@@ -1,6 +1,6 @@
 package lista6;
 
-public class ContatoQ4 {
+public class Contato {
 	private String telefoneResid;
 	private String celular;
 	private String email;
